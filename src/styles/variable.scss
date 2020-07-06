@@ -1,0 +1,9 @@
+// 支持两种变量定义写法
+// 1. scss 变量
+
+// 2. css3 变量
+body {
+  --color-primary: #21b97a;
+  --color-price: #fa5741;
+  --color-font: #333;
+}

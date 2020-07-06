@@ -1,0 +1,47 @@
+.city_group {
+  .city_group_title {
+    color: var(--color-font-sub);
+    line-height: 40px;
+    padding: 0 10px;
+  }
+
+  .city_group_item {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+}
+.letter {
+  position: fixed;
+  top: 10%;
+  top: calc(45px + 2%);
+  bottom: 2%;
+  width: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: cyan;
+  right: 10px;
+  .letter_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    span {
+      width: 16px;
+      height: 16px;
+      display: flex;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+iframe {
+  display: none;
+}
+.active {
+  background-color: red;
+  color: #fff;
+}

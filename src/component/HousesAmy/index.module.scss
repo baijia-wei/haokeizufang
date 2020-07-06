@@ -1,0 +1,63 @@
+@import "../../styles/function.scss";
+
+.house_item {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  .house_item_img {
+    width: 106px;
+    height: 80px;
+    margin-right: 10px;
+    background-color: #ccc;
+  }
+
+  .house_item_info {
+    flex: 1;
+    line-height: 1.5;
+    .house_item_info_name {
+      @include ell(1);
+    }
+
+    .house_item_info_desc {
+      @include ell(1);
+      color: var(--color-font-sub);
+    }
+
+    .house_item_info_label {
+      span {
+        padding: 5px;
+        border-radius: 3px;
+        margin: 5px 0;
+        margin-right: 5px;
+        line-height: 1;
+        font-size: 12px;
+        &:nth-child(1) {
+          background-color: #e1f5f8;
+          color: #52c5d3;
+        }
+        &:nth-child(2) {
+          background-color: #e1f5ed;
+          color: #45c38f;
+        }
+      }
+    }
+
+    .house_item_info_price {
+      color: var(--color-price);
+      font-size: 16px;
+      font-weight: bold;
+      &::before {
+        content: "¥";
+        font-size: 80%;
+        font-weight: normal;
+        padding-right: 3px;
+      }
+      &::after {
+        content: "元/月";
+        padding-left: 3px;
+        font-size: 80%;
+        font-weight: normal;
+      }
+    }
+  }
+}

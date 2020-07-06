@@ -1,0 +1,21 @@
+.box {
+  position: fixed;
+  left: 25%;
+  .box1 {
+    width: 500px;
+
+    .name {
+      width: 200px;
+      height: 25px;
+    }
+    .paas {
+      width: 200px;
+      height: 25px;
+    }
+  }
+
+  .buuton {
+    width: 200px;
+    height: 55px;
+  }
+}

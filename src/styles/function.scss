@@ -1,0 +1,17 @@
+$deviceWidth: 375;
+
+@function vw($px) {
+  @return $px/$deviceWidth * 100vw;
+}
+
+.box {
+  width: vw(100);
+}
+
+@mixin ell($line: 2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}

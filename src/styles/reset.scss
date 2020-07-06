@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  // 字体颜色 继承父元素的元素
+  color: inherit;
+}
+
+img {
+  // 解决图片基线对齐造成的缝隙
+  vertical-align: top;
+  // 图片默认占满父容器
+  width: 100%;
+}

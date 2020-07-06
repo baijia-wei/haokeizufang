@@ -1,0 +1,19 @@
+.letter {
+  .heide_Carousel {
+    img {
+      height: 210px;
+    }
+  }
+  .avigation {
+    display: flex;
+    height: 84px;
+    justify-content: space-between;
+    align-items: center;
+    .avigation_span {
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      flex: 30%;
+    }
+  }
+}
